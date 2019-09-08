@@ -6,6 +6,9 @@ It expects a name, email, phone number, and preferred contact method. Using thes
 
 It also expects the sheet to track the number of "processed" entries (`CURR_COUNT`), and a location to store the last "processed" entries count (`LAST_COUNT`). This prevents arbitrary sheet updates to trigger a notification to the next unprocessed individual.
 
+This was used successfully for the 2019 Supermileage electrical recruiting run, with a small change to allow the visual update to update another sheet (so that candidates can keep track of the queue themselves). 
+
+
 ## Setup
 
 Refer to [this sheet](https://docs.google.com/spreadsheets/d/1Eq0w7KkYYUYIoq3Xe66ES6Ijn2bXC7IRNLsZsIPfx3g/edit?usp=sharing) for an example. Essentially, you must set up all the `Config.gs` values based on these configuration items on the sheet:
