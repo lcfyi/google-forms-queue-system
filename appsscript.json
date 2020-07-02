@@ -1,0 +1,12 @@
+{
+    "timeZone": "America/New_York",
+    "oauthScopes": [
+      "https://www.googleapis.com/auth/script.external_request",
+      "https://www.googleapis.com/auth/script.send_mail",
+      "https://www.googleapis.com/auth/drive.file",
+      "https://www.googleapis.com/auth/spreadsheets.currentonly"
+    ],
+  
+    "exceptionLogging": "STACKDRIVER"
+  
+  }
